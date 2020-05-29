@@ -1,0 +1,9 @@
+'SELECT * from employees'
+
+'CREATE TABLE players (id integer, name text, sport text, price real)'
+
+'INSERT INTO players VALUES(7, "dhoni", "cricket", 678200)'
+
+'INSERT INTO players (id, name, sport, price) VALUES (?,?,?,?)' , (23, "V Anana", "chess", 345680)
+
+'UPDATE players SET name = "viswha anand" where id = 23'
